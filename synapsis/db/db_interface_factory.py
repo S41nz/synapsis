@@ -3,8 +3,8 @@ Created on 22/01/2016
 
 @author: S41nz
 '''
-from db.enums.db_interface_type import DBInterfaceType
-from db.graph.neo4j_db_interface import Neo4jDBInterface
+from synapsis.db.enums.db_interface_type import DBInterfaceType
+from synapsis.db.graph.neo4j_db_interface import Neo4jDBInterface
 
 class DBInterfaceFactory(object):
     '''

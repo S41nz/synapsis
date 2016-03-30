@@ -4,13 +4,16 @@ Created on 22/01/2016
 @author: S41nz
 '''
 from abc import ABCMeta,abstractmethod
-from db.enums.db_interface_type import DBInterfaceType
+from synapsis.db.enums.db_interface_type import DBInterfaceType
 
-class DBInterface(metaclass=ABCMeta):
+class DBInterface:
     '''
     This interface defines the basic functionality that an interface with any kind of database should have.
     '''
     
+    #Define the attribute for Abstract classes on Python 2.X
+    __metaclass__ = ABCMeta
+
 
     def __init__(self):
         '''
