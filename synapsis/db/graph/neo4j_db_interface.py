@@ -4,8 +4,8 @@ Created on 27/01/2016
 @author: S41nz
 '''
 
-from db.db_interface import DBInterface
-from db.enums.db_interface_type import DBInterfaceType
+from synapsis.db.db_interface import DBInterface
+from synapsis.db.enums.db_interface_type import DBInterfaceType
 from py2neo import Graph
 from py2neo.core import authenticate
 
